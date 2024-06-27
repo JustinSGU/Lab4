@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Añadir en tu archivo global de CSS si es necesario */
+.styled-button {
+  @apply rounded px-2 py-1 bg-white hover:bg-gray-300;
+}
+/* Puedes mantener estas reglas CSS en tu archivo global si es necesario */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Si deseas conservar el font-family global */
+body {
+  @apply font-sans;
+}
+
